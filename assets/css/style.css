@@ -31,7 +31,7 @@ body
     position: absolute;
     right: -60%;
     top: 50%;
-    transition: 2.2s;
+    transition: 1s;
 }
 .navigation > .navResp > .navResp-div > ul.nav {
     right: 5%;
@@ -43,7 +43,7 @@ body
     position: absolute;
     right: 10%;
     top: 20%;
-    transition: 2s;
+    transition: 1s;
 }
 .navigation > .navResp > .navResp-div > ul.nav > li {
     width: 150px;
