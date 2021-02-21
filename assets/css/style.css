@@ -34,6 +34,7 @@ body
     transition: 1s;
 }
 .navigation > .navResp > .navResp-div > ul.nav {
+    margin-top: 25px;
     right: 5%;
     display: flex;
     flex-direction: column;
@@ -47,9 +48,10 @@ body
 }
 .navigation > .navResp > .navResp-div > ul.nav > li {
     width: 150px;
-    margin-bottom: 2%;
     list-style-type: none;
     text-align: end;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
 }
 .navigation > .navResp > .navResp-div > ul.nav > li a{
     text-decoration: none;
@@ -81,6 +83,7 @@ body
     margin-top: 5%;
     margin-bottom: 10%;
     position: relative;
+    transition: 1s;
 }
 .home .apresentation {
     width: 45%;

@@ -31,7 +31,7 @@
             </div>
        </div>
     </div>
-    <section class="home">
+    <section class="home" id="home">
         <div class="apresentation">
             <h1>AGENCY <br> MÓVEIS</h1>
             <p>Mobília, decoração e mais</p>
@@ -156,6 +156,7 @@
         let imagemNavResponsive = document.getElementById('imgNavResponsive')
         let clicks = 0
         let navRespDiv = document.getElementById('navResp-div')
+        let SectionHome = document.getElementById('home')
 
         imagemNavResponsive.addEventListener('click', () => {
             if(clicks===0){
@@ -173,14 +174,20 @@
             setTimeout(()=>{
                 navRespDiv.style.display ='block'
             }, 10)
+            setTimeout(()=> {
+                SectionHome.style.marginTop = '35%'
+            },20)
             setTimeout(()=>{
                 navRespDiv.style.right ='10%'
-            }, 100)
+            }, 200)
         }
         hideNavBar = () => {
             setTimeout(()=>{
                 navRespDiv.style.right ='-40%'
             }, 100)
+            setTimeout(()=> {
+                SectionHome.style.marginTop = '0%'
+            }, 250)
             setTimeout(()=>{
                 navRespDiv.style.display ='none'
             }, 1000)
