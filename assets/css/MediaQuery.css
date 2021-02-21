@@ -1,0 +1,103 @@
+@media (max-width: 810px) {
+    .navigation .nav {
+        display: none;
+    }
+    .navigation .navResp {
+        display: block;
+    }
+    .home {
+        margin-top: 10%;
+    }
+}
+@media (max-width: 990px){
+    .contact .text-contact {
+        margin-left: 1%;
+    }
+}
+@media (max-width: 975px) {
+    .our-History .text-img {
+        position: relative;
+        right: -5%;
+    }
+    .our-History .text-img .img2 img{
+        width: 90%;
+        margin-left: 6%;
+    }
+    .our-History .text-img .text-history {
+        width: 70%;
+        margin-bottom: 10vw
+    }
+}
+@media (max-width: 800px) {
+    .our-History .img1{
+        position: relative;
+        left: -5%;
+    }
+}
+@media (max-width: 730px) {
+    .home {
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .home .apresentation  {
+        left: 0;
+        margin-bottom: 2%;
+        min-width: 295px;
+        min-height: 205px;
+        padding: 0;
+        margin: 0;
+    }
+    .home .apresentation  h1 {
+        font-size: 3rem;
+    }
+
+    .home img{
+        min-width: 310px;
+        max-height: 300px;
+        margin-top: 5%;
+    }
+    .our-History {
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-History .img1 {
+        left: 0%;
+        min-width: 340px;
+        
+    }
+    .our-History .img1 img {
+        position: relative;
+        right: -3%;
+        min-width: 50%;
+        min-height: 100px;
+    }
+    .our-History .text-img {
+        right: 0%;
+    }
+    .our-History .text-img .text-history{
+        position: relative;
+        left: 1%;
+        min-width: 233px;
+    }
+    .our-History .text-img .img2 {
+        min-width: 310px;
+    }
+    .our-Products .products{
+        flex-direction: column;
+    }
+    .Feedback .clients {
+        flex-direction: column;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .img-Contact {
+        width: 60%;
+        min-width: 310px;
+    }
+    .contact .img-Contact img{
+        width: 100%;
+    }
+
+}

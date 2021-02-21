@@ -1,0 +1,1 @@
+let imagemNavResponsive = document.getElementById('imgNavResponsive')

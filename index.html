@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/MediaQuery.css">
+    <title>Agency Móveis</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="logo"><img src="./assets/img/logo.png" alt="logo-marca"></div>
+        <ul class="nav">
+            <li><a href="#our-History">Nossa História</a></li>
+            <li><a href="#our-Products">Nossos Produtos</a></li>
+            <li><a href="#Feedback">FeedBack clientes</a></li>
+            <li><a href="#contact">Contate-nos</a></li>
+        </ul>
+       <div class="navResp">
+            <img id="imgNavResponsive" src="./assets/img/menu-logo.png" alt="menu-logo">
+            <div class="navResp-div" id="navResp-div">
+                <ul class="nav">
+                    <li><a href="#our-History">Nossa História</a></li>
+                    <li><a href="#our-Products">Nossos Produtos</a></li>
+                    <li><a href="#Feedback">FeedBack clientes</a></li>
+                    <li><a href="#contact">Contate-nos</a></li>
+                </ul>
+            </div>
+       </div>
+    </div>
+    <section class="home">
+        <div class="apresentation">
+            <h1>AGENCY <br> MÓVEIS</h1>
+            <p>Mobília, decoração e mais</p>
+        </div>
+        <img src="./assets/img/imagem-apresentacao.png" alt="foto-decoracao-jarro-planta">
+    </section> 
+    <div class="our-History" id="our-History">
+        <div class="img1">
+            <img src="./assets/img/Luxurious-interior.jpg" alt="">
+        </div>
+        <div class="text-img">
+            <div class="text-history">
+                <h2>Nossa História</h2>
+                <p>
+                    Criada em 1972, a Agency Móveis faz parte de mais</br>
+                    de 10 milhões de lares com seus móveis de alta </br>
+                    qualidade, escritório e produtos de decoração.
+                </p>
+            </div>
+            <div class="img2">
+                <img src="./assets/img/luz-movel-cabeceira.png" alt="">
+            </div>
+        </div>
+    </div>
+     <div class="our-Products" id="our-Products">
+        <div class="title">
+            <h2>NOSSOS PRODUTOS</h2>
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="./assets/img/Pequena-mesa-de-centro-branca.png" alt="Conjunto para sala de Estar">
+                <h2>Conjunto para sala de Estar</h2>
+                <p>
+                    Conjuntos pré-elaborados para a </br> 
+                    sua sala de estar dos sonhos.
+                </p>
+            </div>
+            <div class="product">
+                <img src="./assets/img/Design-de-interiores.png" alt="Fragrâncias para casa">
+                <h2>
+                   <strong>Móveis para Pequenos Espaços</strong>
+                </h2>
+                <p>
+                    Itens de mobilia apropriados </br>
+                    para o seu humilde lar.
+                </p>
+            </div>
+            <div class="product">
+                <img src="./assets/img/Computador-portátil-branco-preto-no-tamborete-de-madeira.png" alt="Móveis para Pequenos Espaços">
+                <h2>Fragrâncias para casa</h2>
+                <p>
+                    Bugigangas e enfeites para </br>
+                    animar o seu espaço.
+                </p>
+            </div>
+        </div>
+    </div> 
+    <div class="Feedback" id="Feedback">
+        <div class="title">
+            <h2>FEEDBACK DE CLIENTES</h2>
+        </div>
+        <div class="clients">
+            <div class="client client1">
+                <img src="./assets/img/usuario1.jpg" alt="Imagem cliente">
+                <h2>
+                    José
+                </h2>
+                <p>
+                    Depoimentos são frases curtas das  
+                    pessoas que curtem sua marca. É uma   
+                    ótima forma de convencer os clientes 
+                    a experimentar seus serviços.
+                </p>
+            </div>
+            <div class="client client2">
+                <img src="./assets/img/usuario3.jpg" alt="Imagem cliente">
+                <h2>
+                    Maria
+                </h2>
+                <p>
+                    Depoimentos são frases curtas das
+                    pessoas que curtem sua marca. É uma 
+                    ótima forma de convencer os clientes
+                    a experimentar seus serviços.
+                </p>
+            </div>
+            <div class="client client3">
+                <img src="./assets/img/usuario2.jpg" alt="Imagem cliente">
+                <h2>
+                    Antônio
+                </h2>
+                <p>
+                    Depoimentos são frases curtas das  
+                    pessoas que curtem sua marca. É uma   
+                    ótima forma de convencer os clientes 
+                    a experimentar seus serviços.
+                </p>
+            </div>
+        </div>
+    </div> 
+    <div class="contact" id="contact">
+        <div class="img-Contact">
+            <img src="./assets/img/contate-nos.jpg" alt="foto-contanto">
+        </div>
+        <div class="text-contact">
+            <h2>CONECTE-SE CONOSCO</h2>
+            <p><strong>Endereço:</strong></p>
+            <p>Rua Qualquer, 123, Cidade, Estado, País</p>
+            <p><strong>E-mail:</strong></p>
+            <p>alo@sitebacana.com.br</p>
+            <p><strong>Telefone:</strong></p>
+            <p>(85) 3456 -7890</p>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            Desenvolvido por <a href="https://github.com/Koala-Dev" target="_blank">Koala Dev</a>
+        </div>
+    </footer>
+    <script>
+        let imagemNavResponsive = document.getElementById('imgNavResponsive')
+        let clicks = 0
+        let navRespDiv = document.getElementById('navResp-div')
+
+        imagemNavResponsive.addEventListener('click', () => {
+            if(clicks===0){
+                imagemNavResponsive.style.transform = 'rotate(180deg)'
+                clicks--
+                showNavBar()
+            }else{
+                imagemNavResponsive.style.transform = 'rotate(0deg)'
+                clicks++
+                hideNavBar()
+            }
+        })
+
+        showNavBar = () => {
+            setTimeout(()=>{
+                navRespDiv.style.display ='block'
+            }, 50)
+            setTimeout(()=>{
+                navRespDiv.style.right ='10%'
+            }, 500)
+        }
+        hideNavBar = () => {
+            setTimeout(()=>{
+                navRespDiv.style.right ='-40%'
+            }, 200)
+            setTimeout(()=>{
+                navRespDiv.style.display ='none'
+            }, 2000)
+        }
+    </script>
+</body>
+</html>
